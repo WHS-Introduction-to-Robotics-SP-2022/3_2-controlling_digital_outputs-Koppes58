@@ -1,0 +1,32 @@
+void setup ()
+{
+
+ pinMode ( ,OUTPUT);
+ pinMode (8, );
+ 
+ digitallWrite( ,HIGH);
+   delay();
+        digitalWrite(, LOW);
+        delay();
+    
+    // wait one second
+    delay ();
+    
+    // blink blue LED on and off twice
+        digitalWrite(, HIGH);
+        delay();
+        digitalWrite(, LOW);
+        delay(); 
+    
+    // wait three seconds
+    delay ();
+}
+
+void loop()
+{
+    // blink both LEDs on and off alternatively
+
+    delay(650);
+
+    delay(650);
+}
